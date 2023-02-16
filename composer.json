@@ -1,0 +1,26 @@
+{
+    "name": "smalldogs/larapal",
+    "description": "A Laravel PayPal IPN library, buit ontop of mike182uk/paypal-ipn-listener, fork of localicalgrape.",
+    "keywords": ["paypal", "ipn", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dustin Brownell",
+            "email": "dustin@smalldo.gs"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*",
+        "mike182uk/paypal-ipn-listener": "v2.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Smalldogs\\LaraPal\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
